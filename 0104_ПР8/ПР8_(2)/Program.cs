@@ -62,13 +62,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Шаг 2: Создание объектов и вызов TurboBoost
+        #region 2. Создание объектов и вызов TurboBoost
         MiniVan miniVan = new MiniVan("MiniVan1", 100, 50);
         SportsCar sportsCar = new SportsCar("SportsCar1", 200, 100);
         miniVan.TurboBoost();
         sportsCar.TurboBoost();
+        #endregion
 
-        // Шаг 3: Сериализация объектов
+        #region 3. Сериализация объектов
         BinaryFormatter binaryFormatter = new BinaryFormatter();
         using (FileStream fs = new FileStream("miniVan.bin", FileMode.Create))
         {
@@ -80,8 +81,9 @@ class Program
         {
             xmlSerializer.Serialize(fs, sportsCar);
         }
+        #endregion
 
-        // Шаг 4: Десериализация объектов
+        #region 4.Десериализация объектов и их вывод
         MiniVan deserializedMiniVan;
         using (FileStream fs = new FileStream("miniVan.bin", FileMode.Open))
         {
@@ -94,11 +96,14 @@ class Program
             deserializedSportsCar = (SportsCar)xmlSerializer.Deserialize(fs);
         }
 
-        Console.WriteLine("Десериализованный MiniVan:");
-        deserializedMiniVan.Show();
-        Console.WriteLine();
-
         Console.WriteLine("Десериализованный SportsCar:");
         deserializedSportsCar.Show();
+
+        Console.WriteLine();
+
+        Console.WriteLine("Десериализованный MiniVan:");
+        deserializedMiniVan.Show();
+
+        #endregion
     }
 }
