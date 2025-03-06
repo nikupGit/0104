@@ -37,6 +37,7 @@
       <HintPath>..\ClassLibrary1\bin\Debug\ClassLibrary1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />

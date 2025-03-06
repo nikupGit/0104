@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.ComponentModel.DataAnnotations;
 
 using ClassLibrary1;
 
@@ -16,75 +16,51 @@ namespace ConsoleApp1
         {
             try
             {
-                #region Объявление объектов
-                Daemon[] daemons = null;
-
-                try
+                #region 5.2 Создание объектов
+                var demons = new List<Daemon>
                 {
-                    daemons = new Daemon[]
-                    {
-                    new Daemon("Azazel", 2),
-                    new Daemon("Beelzebub", 3),
-                    new Daemon("Mephisto", 5),
-                    new Daemon("Lucifer", 1),
-                    new Daemon(-10, 50, "InvalidHealth", 4) // Пример некорректного объекта
-                    };
-                }
-                catch (Exception ex)
-                {
-                    throw new ApplicationException("Ошибка при создании объектов Daemon", ex);
-                }
+                    new Daemon("Azazel_Demon", 4),
+                    new Daemon("Smaug_Dragon", 3),
+                    new Daemon("LichKing_Undead", 5),
+                    new Daemon("Grendel_Beast", 3),
+                    new Daemon(120, 90, "Ifrit_Elemental", 2)
+                };
                 #endregion
 
-                #region Проверка на допустимость
-                Daemon[] validDaemons = null;
+                #region 5.3 Проверка допустимости
+                var validDemons = new List<Daemon>();
+                var validationResults = new List<ValidationResult>();
 
-                try
+                foreach (var demon in demons)
                 {
-                    if (daemons == null)
-                        throw new InvalidOperationException("Массив демонов не инициализирован");
+                    var context = new ValidationContext(demon);
+                    bool isValid = Validator.TryValidateObject(demon, context, validationResults, true)
+                                   && demon.IsValidBrain;
 
-                    validDaemons = daemons.Where(d => d != null && d.IsValid).ToArray();
-
-                    if (!validDaemons.Any())
-                        throw new InvalidOperationException("Нет допустимых объектов Daemon");
-                }
-                catch (Exception ex)
-                {
-                    throw new ApplicationException("Ошибка при проверке объектов", ex);
-                }
-                #endregion
-
-                #region Вывод результатов
-                try
-                {
-                    Console.WriteLine("Допустимые демоны:");
-                    foreach (var daemon in validDaemons)
+                    if (isValid)
                     {
-                        Console.WriteLine(daemon.Name);
+                        validDemons.Add(demon);
                     }
-                }
-                catch (Exception ex)
-                {
-                    throw new ApplicationException("Ошибка при выводе результатов", ex);
+                    validationResults.Clear();
                 }
                 #endregion
-            }
-            catch (ApplicationException appEx)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Критическая ошибка: {appEx.Message}");
-                Console.WriteLine($"Подробности: {appEx.InnerException?.Message}");
-                Console.ResetColor();
-                Environment.Exit(1);
+
+                #region 5.4 Вывод результатов
+                Console.WriteLine("\nДопустимые демоны:");
+                foreach (var demon in validDemons)
+                {
+                    Console.WriteLine($"- {demon.Name}");
+                    demon.Passport();
+                }
+                #endregion
             }
             catch (Exception ex)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Непредвиденная ошибка: {ex.Message}");
-                Console.ResetColor();
-                Environment.Exit(1);
+                Console.WriteLine($"Ошибка: {ex.Message}");
             }
+
+            Console.WriteLine("\nНажмите Enter для выхода...");
+            Console.ReadLine();
         }
     }
 }
