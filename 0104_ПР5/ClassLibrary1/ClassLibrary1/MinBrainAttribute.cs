@@ -5,13 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-[AttributeUsage(AttributeTargets.Class)]
-public class MinBrainAttribute : Attribute
+namespace ClassLibrary1
 {
-    public int MinValue { get; }
-
-    public MinBrainAttribute(int minValue)
+    [AttributeUsage(AttributeTargets.Class)]
+    public class MinBrainAttribute : Attribute
     {
-        MinValue = minValue;
+        public int MinValue { get; }
+
+        public MinBrainAttribute(int minValue)
+        {
+            MinValue = minValue;
+        }
     }
 }
