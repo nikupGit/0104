@@ -11,7 +11,7 @@ namespace _0104_ПР8
     {
         static void Main(string[] args)
         {
-            // Шаг 2: Создание каталога D:\MyDir\temp и вывод информации
+            #region 2. Создание каталога D:\MyDir\temp и вывод информации
             string dirPath = @"D:\MyDir\temp";
             DirectoryInfo dirInfo = new DirectoryInfo(dirPath);
 
@@ -29,8 +29,9 @@ namespace _0104_ПР8
             Console.WriteLine("Дата создания: " + dirInfo.CreationTime);
             Console.WriteLine("Атрибуты: " + dirInfo.Attributes);
             Console.WriteLine();
+            #endregion
 
-            // Шаг 3: Копирование каталогов из D:\111 в D:\MyDir\temp
+            #region 3. Копирование каталогов из D:\111 в D:\MyDir\temp
             string sourceDir = @"D:\111";
             if (Directory.Exists(sourceDir))
             {
@@ -48,21 +49,25 @@ namespace _0104_ПР8
             }
 
             DisplayFileInfo(dirPath);
+            #endregion
 
-            // Шаг 4: Сделать файлы скрытыми
+            #region 4. Сделать файлы скрытыми
             MakeFilesHidden(dirPath);
 
             Console.WriteLine("\nПосле изменения атрибутов на скрытые:");
             DisplayFileInfo(dirPath);
+            #endregion
 
-            // Шаг 5: Удаление всех подкаталогов
+            #region 5. Удаление всех подкаталогов
             foreach (DirectoryInfo subDir in dirInfo.GetDirectories())
             {
                 subDir.Delete(true); // true для удаления
             }
             Console.WriteLine("Все подкаталоги в " + dirPath + " удалены.");
+            #endregion
         }
 
+        #region Описание функций
         static void CopyDirectory(string sourceDir, string destDir)
         {
             // Создаем целевой каталог, если он еще не существует
@@ -118,5 +123,6 @@ namespace _0104_ПР8
                 }
             }
         }
+        #endregion
     }
 }
