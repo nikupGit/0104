@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D05C3ACC-1DBC-4E56-96DB-B6D07183BA0E}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\nikup\\onedrive\\desktop\\pg\\vs\\0104\\0104_\u043F\u04405\\classlibrary1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D05C3ACC-1DBC-4E56-96DB-B6D07183BA0E}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\classlibrary1\\daemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\daemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\classlibrary1\\monsternameattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\monsternameattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\classlibrary1\\spirit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\spirit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\classlibrary1\\monstertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\monstertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\classlibrary1\\spirit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\spirit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\classlibrary1\\monsternameattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\monsternameattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\classlibrary1\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\minbrainattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\classlibrary1\\daemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5476638-5EE7-488F-BA1E-5F3044C3A901}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\daemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D05C3ACC-1DBC-4E56-96DB-B6D07183BA0E}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\nikup\\onedrive\\desktop\\pg\\vs\\0104\\0104_\u043F\u04405\\classlibrary1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05C3ACC-1DBC-4E56-96DB-B6D07183BA0E}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D05C3ACC-1DBC-4E56-96DB-B6D07183BA0E}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\consoleapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,13 +58,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T11:05:06.734Z",
               "EditorCaption": ""
@@ -84,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Spirit.cs",
               "DocumentMoniker": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\ClassLibrary1\\Spirit.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Spirit.cs",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MonsterNameAttribute.cs",
               "DocumentMoniker": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\ClassLibrary1\\MonsterNameAttribute.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\MonsterNameAttribute.cs",
@@ -148,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Daemon.cs",
               "DocumentMoniker": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04205\\ClassLibrary1\\ClassLibrary1\\Daemon.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Daemon.cs",

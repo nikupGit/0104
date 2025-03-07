@@ -1,71 +1,55 @@
 ﻿// 12. Даны файлы F и G целых чисел, не превышающих 255.
 // Занести в третий файл максимальные числа из стоящих на одинаковых позициях в файлах F и G.
 
+
 using System;
 using System.IO;
-using System.Linq;
-
-
-namespace _0104_ПР6
+namespace ConsoleApplication1
 {
-    internal class Program
+    class Class1
     {
         static void Main()
         {
             try
             {
-                #region Чтение чисел из файлов
-                int[] numbersF = ReadNumbersFromFile("F.txt");
-                int[] numbersG = ReadNumbersFromFile("G.txt");
+                #region Структуры для работы с файлами
+                FileStream f = new FileStream("F.txt", FileMode.Open, FileAccess.Read);
+                FileStream g = new FileStream("G.txt", FileMode.Open, FileAccess.Read);
+                FileStream h = new FileStream("H.txt", FileMode.Create, FileAccess.Write);
                 #endregion
 
-                #region Обработка чисел и запись результата
-                using (StreamWriter writer = new StreamWriter("H.txt"))
+                #region Определение длины файлов. Определение минимальной.
+                long f_len = f.Length;
+                long g_len = g.Length;
+                long min_lenFG = Math.Min(g_len, f_len);
+                #endregion
+
+                #region Цикл чтения и сравнения байтов
+                byte[] x = new byte[min_lenFG];
+                int a_f, a_g;
+                for (byte i = 0; i < min_lenFG; ++i)
                 {
-                    int maxLength = Math.Max(numbersF.Length, numbersG.Length);
-                    for (int i = 0; i < maxLength; i++)
-                    {
-                        int valueF = (i < numbersF.Length) ? numbersF[i] : 0;
-                        int valueG = (i < numbersG.Length) ? numbersG[i] : 0;
+                    a_f = f.ReadByte();
+                    a_g = g.ReadByte();
 
-                        if (valueF < 0 || valueF > 255 || valueG < 0 || valueG > 255)
-                            throw new InvalidDataException($"Некорректное значение на позиции {i + 1}");
-
-                        int max = Math.Max(valueF, valueG);
-                        writer.Write(max + " ");
-                    }
+                    x[i] = (byte)(Math.Max(a_f, a_g));
                 }
+                h.Write(x, 0, (int)min_lenFG); // Запись результатов
 
-                Console.WriteLine("Файл H успешно создан.");
+                Console.WriteLine("Данные занечены в файл \'H.txt\'");
+                f.Close();
+                g.Close();
+                h.Close();
                 #endregion
             }
-            catch (FileNotFoundException ex)
+            catch (FileNotFoundException)
             {
-                Console.WriteLine($"Ошибка: Файл не найден - {ex.FileName}");
+                Console.WriteLine("Один из файлов не найден");
             }
-            catch (InvalidDataException ex)
+            catch (Exception e)
             {
-                Console.WriteLine($"Ошибка данных: {ex.Message}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Ошибка: {ex.Message}");
+                Console.WriteLine("Ошибка работы с файлом: " + e.Message);
             }
         }
-
-        #region Метод чтения чисел из файла
-        static int[] ReadNumbersFromFile(string filename)
-        {
-            string content = File.ReadAllText(filename);
-            return content.Split(new[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries)
-                         .Select(s =>
-                         {
-                             if (!int.TryParse(s, out int num))
-                                 throw new InvalidDataException($"Некорректное число: '{s}'");
-                             return num;
-                         })
-                         .ToArray();
-        }
-        #endregion
     }
 }

@@ -2,55 +2,55 @@
 // Подсчитать количество символов до символа '*'.
 using System;
 using System.IO;
-
-
 namespace ПР6_2_12
 {
-    internal class Program
+    class Program
     {
         static void Main()
         {
             try
             {
-                #region Ввод и проверка
-                Console.WriteLine("Введите 10 символов (подряд, без пробелов):");
-                string input = Console.ReadLine();
+                #region Ввод символов и запись в файл
+                FileStream fchar = new FileStream("F.txt", FileMode.Create, FileAccess.ReadWrite);
 
-                // Проверка длины ввода
-                if (input.Length != 10)
+                char[] x = new char[10];
+
+                Console.WriteLine("Введите 10 символов");
+                for (int i = 0; i < 10; ++i)
                 {
-                    Console.WriteLine("Ошибка: нужно ввести ровно 10 символов!");
-                    return;
+                    x[i] = (char)Console.Read();
+                    fchar.WriteByte((byte)x[i]);   // записывается элемент массива 
                 }
+                Console.ReadLine();
                 #endregion
 
-                #region Запись, чтение и подсчет до *
-                File.WriteAllText("F.txt", input);
-
-                int count = 0;
+                #region Поиск '*' и вывод информации
+                int a, count = 0;
+                fchar.Seek(0, SeekOrigin.Begin);    // текущий указатель - на начало 
                 bool starFound = false;
-                string content = File.ReadAllText("F.txt");
-
-                foreach (char c in content)
+                for (int i = 0; i < 10; i++)
                 {
-                    if (c == '*')
+                    a = fchar.ReadByte();
+                    if (a == '*')
                     {
                         starFound = true;
                         break;
                     }
                     count++;
                 }
-                #endregion
+                Console.WriteLine();
 
-                #region Вывод результата
-                Console.WriteLine(starFound
-                    ? $"Количество символов до '*': {count}"
-                    : $"Символ '*' не найден. Всего символов: {count}");
+                Console.WriteLine("Текущая позиция в потоке " + fchar.Position);
+
+                if (starFound) Console.WriteLine("Количесвто символов до \'*\': " + count);
+                else Console.WriteLine("Символа \'*\' не найдено.");
+
+                fchar.Close();
                 #endregion
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Ошибка: {e.Message}");
+                Console.WriteLine("Ошибка работы с файлом: " + e.Message);
             }
         }
     }
