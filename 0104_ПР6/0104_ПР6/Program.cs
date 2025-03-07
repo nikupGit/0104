@@ -44,7 +44,7 @@ namespace ConsoleApplication1
             }
             catch (FileNotFoundException)
             {
-                Console.WriteLine("Один из файлов не найден");
+                Console.WriteLine("Оба или один из файлов не найден");
             }
             catch (Exception e)
             {
