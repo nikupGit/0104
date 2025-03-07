@@ -29,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +42,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04206\\0104_\u041F\u04206\\Program.cs",
+              "RelativeDocumentMoniker": "0104_\u041F\u04206\\Program.cs",
+              "ToolTip": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04206\\0104_\u041F\u04206\\Program.cs",
+              "RelativeToolTip": "0104_\u041F\u04206\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T21:26:30.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -80,8 +93,7 @@
               "RelativeToolTip": "\u041F\u04206_3_24\\Program.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T14:51:28.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T14:51:28.065Z"
             },
             {
               "$type": "Document",
@@ -93,21 +105,7 @@
               "RelativeToolTip": "\u041F\u04206_2_12\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T13:58:21.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04206\\0104_\u041F\u04206\\Program.cs",
-              "RelativeDocumentMoniker": "0104_\u041F\u04206\\Program.cs",
-              "ToolTip": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u04206\\0104_\u041F\u04206\\Program.cs",
-              "RelativeToolTip": "0104_\u041F\u04206\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T21:26:30.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T13:58:21.273Z"
             }
           ]
         }
