@@ -42,9 +42,9 @@ namespace ConsoleApplication1
                 h.Close();
                 #endregion
             }
-            catch (FileNotFoundException)
+            catch (FileNotFoundException e)
             {
-                Console.WriteLine("Оба или один из файлов не найден");
+                Console.WriteLine("Оба или один из файлов не найден: " + e.Message);
             }
             catch (Exception e)
             {

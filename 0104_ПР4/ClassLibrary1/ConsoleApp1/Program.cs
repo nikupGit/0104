@@ -1,18 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using ClassLibrary1;
+
+
 namespace ConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ConvexQuadrilateral[] shapes =
+            try
             {
+                #region Массив фигур "Выпуклый четырехугольник"
+                ConvexQuadrilateral[] shapes =
+                {
                 new Parallelogram(
                     new Point(0, 0),
                     new Point(2, 0),
@@ -31,15 +32,23 @@ namespace ConsoleApp1
                     new Point(1, 1),
                     new Point(0, 1))
             };
+                #endregion
 
-            foreach (var shape in shapes)
+                #region Вывод информации о фигурах
+                foreach (var shape in shapes)
+                {
+                    Console.WriteLine($"Тип фигуры: {shape.GetType().Name}");
+                    Console.WriteLine($"Длины сторон: [{string.Join(" | ", shape.GetSideLengths().Select(x => x.ToString("F2")))}]");
+                    Console.WriteLine($"Размеры углов: [{string.Join(" | ", shape.GetAngles().Select(x => x.ToString("F2")))}]");
+                    Console.WriteLine($"Длины диагоналей: [{string.Join(" | ", shape.GetDiagonals().Select(x => x.ToString("F2")))}]");
+                    Console.WriteLine($"Длина периметра: {shape.GetPerimeter():F2}");
+                    Console.WriteLine($"Размер площади: {shape.GetArea():F2}\n");
+                }
+                #endregion
+            }
+            catch (Exception ex)
             {
-                Console.WriteLine($"Тип фигуры: {shape.GetType().Name}");
-                Console.WriteLine($"Длины сторон: [{string.Join(" | ", shape.GetSideLengths()):F2}]");
-                Console.WriteLine($"Размер углов: [{string.Join(" | ", shape.GetAngles()):F2}]");
-                Console.WriteLine($"Длины диагоналей: [{string.Join(" | ", shape.GetDiagonals()):F2}]");
-                Console.WriteLine($"Длина периметра: {shape.GetPerimeter():F2}");
-                Console.WriteLine($"Размер площади: {shape.GetArea():F2}\n");
+                Console.WriteLine($"Ошибка. ", ex);
             }
 
             Console.WriteLine("\nНажмите любую клавишу для выхода...");

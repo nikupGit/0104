@@ -2,6 +2,7 @@
 // Подсчитать количество символов до символа '*'.
 using System;
 using System.IO;
+using System.Text;
 namespace ПР6_2_12
 {
     class Program
