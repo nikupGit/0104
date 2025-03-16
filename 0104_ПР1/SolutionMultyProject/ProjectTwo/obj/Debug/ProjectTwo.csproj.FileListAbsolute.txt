@@ -1,0 +1,9 @@
+C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectTwo\bin\Debug\ProjectTwo.exe.config
+C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectTwo\bin\Debug\ProjectTwo.exe
+C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectTwo\bin\Debug\ProjectTwo.pdb
+C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectTwo\obj\Debug\ProjectTwo.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectTwo\obj\Debug\ProjectTwo.Properties.Resources.resources
+C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectTwo\obj\Debug\ProjectTwo.csproj.GenerateResource.cache
+C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectTwo\obj\Debug\ProjectTwo.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectTwo\obj\Debug\ProjectTwo.exe
+C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectTwo\obj\Debug\ProjectTwo.pdb
