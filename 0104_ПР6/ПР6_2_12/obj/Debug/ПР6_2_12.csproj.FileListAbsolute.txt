@@ -1,7 +1,0 @@
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР6\ПР6_2_12\bin\Debug\ПР6_2_12.exe.config
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР6\ПР6_2_12\bin\Debug\ПР6_2_12.exe
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР6\ПР6_2_12\bin\Debug\ПР6_2_12.pdb
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР6\ПР6_2_12\obj\Debug\ПР6_2_12.csproj.AssemblyReference.cache
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР6\ПР6_2_12\obj\Debug\ПР6_2_12.csproj.CoreCompileInputs.cache
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР6\ПР6_2_12\obj\Debug\ПР6_2_12.exe
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР6\ПР6_2_12\obj\Debug\ПР6_2_12.pdb

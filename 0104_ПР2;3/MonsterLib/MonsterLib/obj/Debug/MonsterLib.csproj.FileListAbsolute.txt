@@ -1,6 +1,0 @@
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\MonsterLib\MonsterLib\bin\Debug\MonsterLib.dll
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\MonsterLib\MonsterLib\bin\Debug\MonsterLib.pdb
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\MonsterLib\MonsterLib\obj\Debug\MonsterLib.csproj.AssemblyReference.cache
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\MonsterLib\MonsterLib\obj\Debug\MonsterLib.csproj.CoreCompileInputs.cache
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\MonsterLib\MonsterLib\obj\Debug\MonsterLib.dll
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\MonsterLib\MonsterLib\obj\Debug\MonsterLib.pdb

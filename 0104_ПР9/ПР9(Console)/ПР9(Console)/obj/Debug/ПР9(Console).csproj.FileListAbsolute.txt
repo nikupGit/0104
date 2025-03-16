@@ -1,7 +1,0 @@
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\ПР9(Console)\ПР9(Console)\bin\Debug\ПР9(Console).exe.config
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\ПР9(Console)\ПР9(Console)\bin\Debug\ПР9(Console).exe
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\ПР9(Console)\ПР9(Console)\bin\Debug\ПР9(Console).pdb
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\ПР9(Console)\ПР9(Console)\obj\Debug\ПР9(Console).csproj.AssemblyReference.cache
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\ПР9(Console)\ПР9(Console)\obj\Debug\ПР9(Console).csproj.CoreCompileInputs.cache
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\ПР9(Console)\ПР9(Console)\obj\Debug\ПР9(Console).exe
-C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\ПР9(Console)\ПР9(Console)\obj\Debug\ПР9(Console).pdb

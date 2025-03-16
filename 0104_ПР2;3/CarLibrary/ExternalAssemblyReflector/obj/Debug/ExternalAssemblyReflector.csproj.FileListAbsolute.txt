@@ -1,7 +1,0 @@
-C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\ExternalAssemblyReflector\bin\Debug\ExternalAssemblyReflector.exe.config
-C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\ExternalAssemblyReflector\bin\Debug\ExternalAssemblyReflector.exe
-C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\ExternalAssemblyReflector\bin\Debug\ExternalAssemblyReflector.pdb
-C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\ExternalAssemblyReflector\obj\Debug\ExternalAssemblyReflector.csproj.AssemblyReference.cache
-C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\ExternalAssemblyReflector\obj\Debug\ExternalAssemblyReflector.csproj.CoreCompileInputs.cache
-C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\ExternalAssemblyReflector\obj\Debug\ExternalAssemblyReflector.exe
-C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\ExternalAssemblyReflector\obj\Debug\ExternalAssemblyReflector.pdb

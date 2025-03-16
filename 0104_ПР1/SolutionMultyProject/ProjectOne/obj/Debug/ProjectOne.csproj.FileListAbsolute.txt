@@ -1,7 +1,0 @@
-C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectOne\bin\Debug\ProjectOne.exe.config
-C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectOne\bin\Debug\ProjectOne.exe
-C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectOne\bin\Debug\ProjectOne.pdb
-C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectOne\obj\Debug\ProjectOne.csproj.AssemblyReference.cache
-C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectOne\obj\Debug\ProjectOne.csproj.CoreCompileInputs.cache
-C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectOne\obj\Debug\ProjectOne.exe
-C:\Users\Никита\Desktop\programs\VS\SolutionMultyProject\ProjectOne\obj\Debug\ProjectOne.pdb
