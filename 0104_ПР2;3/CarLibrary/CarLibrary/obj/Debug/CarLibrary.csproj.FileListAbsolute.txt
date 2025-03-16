@@ -1,0 +1,12 @@
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\CarLibrary\CarLibrary\bin\Debug\CarLibrary.dll
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\CarLibrary\CarLibrary\bin\Debug\CarLibrary.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\CarLibrary\CarLibrary\obj\Debug\CarLibrary.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\CarLibrary\CarLibrary\obj\Debug\CarLibrary.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\CarLibrary\CarLibrary\obj\Debug\CarLibrary.dll
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\CarLibrary\CarLibrary\obj\Debug\CarLibrary.pdb
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\CarLibrary\bin\Debug\CarLibrary.dll
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\CarLibrary\bin\Debug\CarLibrary.pdb
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\CarLibrary\obj\Debug\CarLibrary.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\CarLibrary\obj\Debug\CarLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\CarLibrary\obj\Debug\CarLibrary.dll
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\CarLibrary\CarLibrary\obj\Debug\CarLibrary.pdb

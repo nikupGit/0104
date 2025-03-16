@@ -1,0 +1,14 @@
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7_4\0104_ПР7_4\bin\Debug\0104_ПР7_4.exe.config
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7_4\0104_ПР7_4\bin\Debug\0104_ПР7_4.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7_4\0104_ПР7_4\bin\Debug\0104_ПР7_4.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7_4\0104_ПР7_4\obj\Debug\0104_ПР7_4.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7_4\0104_ПР7_4\obj\Debug\0104_ПР7_4.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7_4\0104_ПР7_4\obj\Debug\0104_ПР7_4.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7_4\0104_ПР7_4\obj\Debug\0104_ПР7_4.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7\0104_ПР7_4\0104_ПР7_4\bin\Debug\0104_ПР7_4.exe.config
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7\0104_ПР7_4\0104_ПР7_4\bin\Debug\0104_ПР7_4.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7\0104_ПР7_4\0104_ПР7_4\bin\Debug\0104_ПР7_4.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7\0104_ПР7_4\0104_ПР7_4\obj\Debug\0104_ПР7_4.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7\0104_ПР7_4\0104_ПР7_4\obj\Debug\0104_ПР7_4.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7\0104_ПР7_4\0104_ПР7_4\obj\Debug\0104_ПР7_4.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР7\0104_ПР7_4\0104_ПР7_4\obj\Debug\0104_ПР7_4.pdb
