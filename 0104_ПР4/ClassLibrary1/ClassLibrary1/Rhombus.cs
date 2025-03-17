@@ -26,5 +26,21 @@ namespace ClassLibrary1
             double[] diagonals = GetDiagonals();
             return (diagonals[0] * diagonals[1]) / 2;
         }
+
+        /*
+        #region Переопределение Equals и GetHashCode
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+                return false;
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+        #endregion
+        */
     }
 }
