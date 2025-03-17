@@ -15,18 +15,17 @@ namespace ClassLibrary1
             Y = y;
         }
 
-        // Переопределение метода Equals для сравнения значений точек с учетом погрешности
         public bool Equals(Point other)
         {
             return Math.Abs(X - other.X) < 1e-9 && Math.Abs(Y - other.Y) < 1e-9;
         }
 
+        /*
         public override bool Equals(object obj)
         {
-            return obj is Point point && Equals(point);
+            return obj is Point other && Equals(other);
         }
 
-        // Переопределение GetHashCode для корректной работы в хеш-таблицах
         public override int GetHashCode()
         {
             unchecked
@@ -37,5 +36,6 @@ namespace ClassLibrary1
                 return hash;
             }
         }
+        */
     }
 }

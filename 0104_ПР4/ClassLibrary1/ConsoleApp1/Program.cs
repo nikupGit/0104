@@ -14,24 +14,24 @@ namespace ConsoleApp1
                 #region Массив фигур "Выпуклый четырехугольник"
                 ConvexQuadrilateral[] shapes =
                 {
-                new Parallelogram(
-                    new Point(0, 0),
-                    new Point(2, 0),
-                    new Point(3, 2),
-                    new Point(1, 2)),
+                    new Parallelogram(
+                        new Point(0, 0),
+                        new Point(2, 0),
+                        new Point(3, 2),
+                        new Point(1, 2)),
 
-                new Rhombus(
-                    new Point(0, 0),
-                    new Point(1, 1),
-                    new Point(0, 2),
-                    new Point(-1, 1)),
+                    new Rhombus(
+                        new Point(0, 0),
+                        new Point(1, 1),
+                        new Point(0, 2),
+                        new Point(-1, 1)),
 
-                new Square(
-                    new Point(0, 0),
-                    new Point(1, 0),
-                    new Point(1, 1),
-                    new Point(0, 1))
-            };
+                    new Square(
+                        new Point(0, 0),
+                        new Point(1, 0),
+                        new Point(1, 1),
+                        new Point(0, 1))
+                };
                 #endregion
 
                 #region Вывод информации о фигурах
@@ -45,10 +45,15 @@ namespace ConsoleApp1
                     Console.WriteLine($"Размер площади: {shape.GetArea():F2}\n");
                 }
                 #endregion
+
+                // Пример сравнения фигур по значению
+                var square1 = new Square(new Point(0, 0), new Point(1, 0), new Point(1, 1), new Point(0, 1));
+                var square2 = new Square(new Point(0, 0), new Point(1, 0), new Point(1, 1), new Point(0, 1));
+                Console.WriteLine($"square1.Equals(square2): {square1.Equals(square2)}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Ошибка. ", ex);
+                Console.WriteLine($"Ошибка: {ex.Message}");
             }
 
             Console.WriteLine("\nНажмите любую клавишу для выхода...");

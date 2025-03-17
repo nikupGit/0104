@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace ClassLibrary1
 {
     public class Parallelogram : ConvexQuadrilateral
@@ -17,13 +16,9 @@ namespace ClassLibrary1
         {
             var ab = (B.X - A.X, B.Y - A.Y);
             var dc = (C.X - D.X, C.Y - D.Y);
-            var bc = (C.X - B.X, C.Y - B.Y);
-            var ad = (D.X - A.X, D.Y - A.Y);
 
             return Math.Abs(ab.Item1 - dc.Item1) < 1e-9 &&
-                   Math.Abs(ab.Item2 - dc.Item2) < 1e-9 &&
-                   Math.Abs(bc.Item1 - ad.Item1) < 1e-9 &&
-                   Math.Abs(bc.Item2 - ad.Item2) < 1e-9;
+                   Math.Abs(ab.Item2 - dc.Item2) < 1e-9;
         }
 
         // Переопределение метода вычисления площади
@@ -43,5 +38,21 @@ namespace ClassLibrary1
             double angle = CalculateAngle(A, B, D);
             return new[] { angle, 180 - angle, angle, 180 - angle };
         }
+
+        /*
+        #region Переопределение Equals и GetHashCode
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+                return false;
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+        #endregion
+        */
     }
 }
