@@ -106,7 +106,6 @@ namespace ClassLibrary1
         }
         #endregion
 
-        #region Переопределение Equals и GetHashCode
         public override bool Equals(object obj)
         {
             if (obj == null || GetType() != obj.GetType())
@@ -118,19 +117,5 @@ namespace ClassLibrary1
                    C.Equals(other.C) &&
                    D.Equals(other.D);
         }
-
-        public override int GetHashCode()
-        {
-            unchecked
-            {
-                int hash = 17;
-                hash = hash * 23 + A.GetHashCode();
-                hash = hash * 23 + B.GetHashCode();
-                hash = hash * 23 + C.GetHashCode();
-                hash = hash * 23 + D.GetHashCode();
-                return hash;
-            }
-        }
-        #endregion
     }
 }

@@ -46,10 +46,12 @@ namespace ConsoleApp1
                 }
                 #endregion
 
+                
                 // Пример сравнения фигур по значению
-                var square1 = new Square(new Point(0, 0), new Point(1, 0), new Point(1, 1), new Point(0, 1));
+                var square1 = new Square(new Point(1, 0), new Point(2, 0), new Point(2, 1), new Point(1, 1));
                 var square2 = new Square(new Point(0, 0), new Point(1, 0), new Point(1, 1), new Point(0, 1));
                 Console.WriteLine($"square1.Equals(square2): {square1.Equals(square2)}");
+                
             }
             catch (Exception ex)
             {
