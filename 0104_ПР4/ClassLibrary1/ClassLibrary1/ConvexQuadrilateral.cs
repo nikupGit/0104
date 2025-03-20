@@ -4,10 +4,10 @@ using System.Linq;
 
 namespace ClassLibrary1
 {
-    // Абстрактный базовый класс для выпуклых четырехугольников
-    public abstract class ConvexQuadrilateral
+    // Базовый класс для выпуклых четырехугольников
+    public class ConvexQuadrilateral
     {
-        // Поля для хранения координат вершин в порядке обхода
+        #region Поля для хранения координат вершин в порядке обхода
         public Point A { get; }
         public Point B { get; }
         public Point C { get; }
@@ -21,24 +21,40 @@ namespace ClassLibrary1
             C = c;
             D = d;
         }
+        #endregion
 
-        // Вспомогательный метод для вычисления расстояния между точками
-        protected static double CalculateDistance(Point a, Point b)
+        #region Основные методы
+        // Метод вычисления углов в градусах
+        public virtual double[] GetAngles()
         {
-            double dx = b.X - a.X;
-            double dy = b.Y - a.Y;
-            return Math.Sqrt(dx * dx + dy * dy);
+            return new[]
+            {
+                CalculateAngle(A, B, D),
+                CalculateAngle(B, C, A),
+                CalculateAngle(C, D, B),
+                CalculateAngle(D, A, C)
+            };
         }
 
-        // Метод вычисления длин сторон (виртуальный, может быть переопределен)
+        // Метод вычисления длин диагоналей
+        public virtual double[] GetDiagonals()
+        {
+            return new[]
+            {
+                CalculateDistance(A, C),
+                CalculateDistance(B, D)
+            };
+        }
+
+        // Метод вычисления длин сторон
         public virtual double[] GetSideLengths()
         {
             return new[]
             {
-            CalculateDistance(A, B),
-            CalculateDistance(B, C),
-            CalculateDistance(C, D),
-            CalculateDistance(D, A)
+                CalculateDistance(A, B),
+                CalculateDistance(B, C),
+                CalculateDistance(C, D),
+                CalculateDistance(D, A)
             };
         }
 
@@ -48,29 +64,27 @@ namespace ClassLibrary1
             return GetSideLengths().Sum();
         }
 
-        // Абстрактный метод вычисления площади (должен быть реализован в производных классах)
-        public abstract double GetArea();
-
-        // Метод вычисления длин диагоналей
-        public virtual double[] GetDiagonals()
+        // Метод вычисления площади
+        public virtual double GetArea()
         {
-            return new[]
-            {
-            CalculateDistance(A, C),
-            CalculateDistance(B, D)
-            };
+            // Вычисляем площадь по формуле шнурования для четырехугольника
+            double term1 = A.X * B.Y - B.X * A.Y;
+            double term2 = B.X * C.Y - C.X * B.Y;
+            double term3 = C.X * D.Y - D.X * C.Y;
+            double term4 = D.X * A.Y - A.X * D.Y;
+
+            double area = 0.5 * Math.Abs(term1 + term2 + term3 + term4);
+            return area;
         }
+        #endregion
 
-        // Метод вычисления углов в градусах
-        public virtual double[] GetAngles()
+        #region Вспомогательные методы
+        // Вспомогательный метод для вычисления расстояния между точками
+        protected static double CalculateDistance(Point a, Point b)
         {
-            return new[]
-            {
-            CalculateAngle(A, B, D),
-            CalculateAngle(B, C, A),
-            CalculateAngle(C, D, B),
-            CalculateAngle(D, A, C)
-            };
+            double dx = b.X - a.X;
+            double dy = b.Y - a.Y;
+            return Math.Sqrt(dx * dx + dy * dy);
         }
 
         // Вспомогательный метод для вычисления угла между векторами
@@ -80,7 +94,6 @@ namespace ClassLibrary1
             var v2 = (end2.X - vertex.X, end2.Y - vertex.Y);
 
             double dot = v1.Item1 * v2.Item1 + v1.Item2 * v2.Item2;
-
             double mag1 = Math.Sqrt(v1.Item1 * v1.Item1 + v1.Item2 * v1.Item2);
             double mag2 = Math.Sqrt(v2.Item1 * v2.Item1 + v2.Item2 * v2.Item2);
 
@@ -91,28 +104,18 @@ namespace ClassLibrary1
 
             return Math.Acos(cosTheta) * (180.0 / Math.PI);
         }
+        #endregion
 
-        // Переопределение Equals для сравнения значений вершин
         public override bool Equals(object obj)
         {
-            if (obj == null || GetType() != obj.GetType()) return false;
-            ConvexQuadrilateral other = (ConvexQuadrilateral)obj;
-            return A.Equals(other.A) && B.Equals(other.B) &&
-                   C.Equals(other.C) && D.Equals(other.D);
-        }
+            if (obj == null || GetType() != obj.GetType())
+                return false;
 
-        // Переопределение GetHashCode
-        public override int GetHashCode()
-        {
-            unchecked
-            {
-                int hash = GetType().GetHashCode();
-                hash = hash * 23 + A.GetHashCode();
-                hash = hash * 23 + B.GetHashCode();
-                hash = hash * 23 + C.GetHashCode();
-                hash = hash * 23 + D.GetHashCode();
-                return hash;
-            }
+            ConvexQuadrilateral other = (ConvexQuadrilateral)obj;
+            return A.Equals(other.A) &&
+                   B.Equals(other.B) &&
+                   C.Equals(other.C) &&
+                   D.Equals(other.D);
         }
     }
 }

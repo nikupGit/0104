@@ -1,0 +1,14 @@
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР11\ПР11\ПР11\bin\Debug\ПР11.exe.config
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР11\ПР11\ПР11\bin\Debug\ПР11.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР11\ПР11\ПР11\bin\Debug\ПР11.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР11\ПР11\ПР11\obj\Debug\ПР11.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР11\ПР11\ПР11\obj\Debug\ПР11.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР11\ПР11\ПР11\obj\Debug\ПР11.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР11\ПР11\ПР11\obj\Debug\ПР11.pdb
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР11\ПР11\ПР11\bin\Debug\ПР11.exe.config
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР11\ПР11\ПР11\bin\Debug\ПР11.exe
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР11\ПР11\ПР11\bin\Debug\ПР11.pdb
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР11\ПР11\ПР11\obj\Debug\ПР11.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР11\ПР11\ПР11\obj\Debug\ПР11.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР11\ПР11\ПР11\obj\Debug\ПР11.exe
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР11\ПР11\ПР11\obj\Debug\ПР11.pdb

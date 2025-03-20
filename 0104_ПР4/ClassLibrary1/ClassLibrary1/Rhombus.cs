@@ -26,5 +26,6 @@ namespace ClassLibrary1
             double[] diagonals = GetDiagonals();
             return (diagonals[0] * diagonals[1]) / 2;
         }
+        
     }
 }

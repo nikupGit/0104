@@ -12,3 +12,10 @@ C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР10\ПР10\obj\Debug\ПР
 C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР10\ПР10\obj\Debug\ПР10.csproj.CoreCompileInputs.cache
 C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР10\ПР10\obj\Debug\ПР10.exe
 C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР10\ПР10\obj\Debug\ПР10.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР10\ПР10\bin\Debug\ПР10.exe.config
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР10\ПР10\bin\Debug\ПР10.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР10\ПР10\bin\Debug\ПР10.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР10\ПР10\obj\Debug\ПР10.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР10\ПР10\obj\Debug\ПР10.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР10\ПР10\obj\Debug\ПР10.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР10\ПР10\obj\Debug\ПР10.pdb
