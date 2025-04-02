@@ -21,7 +21,7 @@ namespace ClassLibrary1
                    Math.Abs(ab.Item2 - dc.Item2) < 1e-9;
         }
 
-        // Переопределение метода вычисления площади
+        // Переопледеление метода вычисления площади
         public override double GetArea()
         {
             double baseLength = CalculateDistance(A, B);
@@ -38,21 +38,5 @@ namespace ClassLibrary1
             double angle = CalculateAngle(A, B, D);
             return new[] { angle, 180 - angle, angle, 180 - angle };
         }
-
-        /*
-        #region Переопределение Equals и GetHashCode
-        public override bool Equals(object obj)
-        {
-            if (obj == null || GetType() != obj.GetType())
-                return false;
-            return base.Equals(obj);
-        }
-
-        public override int GetHashCode()
-        {
-            return base.GetHashCode();
-        }
-        #endregion
-        */
     }
 }

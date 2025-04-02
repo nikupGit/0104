@@ -3,38 +3,50 @@ using System.IO;
 using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
+using ПР12;
 
 class Program
 {
     static async Task Main(string[] args)
     {
-        Console.OutputEncoding = Encoding.Unicode;
-        Console.InputEncoding = Encoding.Unicode;
-
-        #region Диалог с пользователем
-        Console.Write("Введите ваше имя: ");
-        string firstName = Console.ReadLine();
-
-        Console.Write("Введите вашу фамилию: ");
-        string lastName = Console.ReadLine();
-
-        Console.WriteLine($"Здравствуйте, {firstName} {lastName}!");
-
-        string filePath = "data.txt";
-        string[] lines = await ReadFileAsync(filePath);
-
-        Console.Write("Хотите вывести содержимое файла на экран? (да/нет): ");
-        string choice = Console.ReadLine();
-
-        if (choice.Equals("да", StringComparison.OrdinalIgnoreCase))
+        try
         {
-            foreach (string line in lines)
+            // Работа с файлом
+            string filePath = "data.txt";
+            var writer = new StringsToFile();
+            writer.WriteLinesToFile(filePath, 1000000);
+            string[] lines = await ReadFileAsync(filePath);
+
+            #region Диалог с пользователем
+            Console.OutputEncoding = Encoding.Unicode;
+            Console.InputEncoding = Encoding.Unicode;
+
+            Console.Write("Введите ваше имя: ");
+            string firstName = Console.ReadLine();
+
+            Console.Write("Введите вашу фамилию: ");
+            string lastName = Console.ReadLine();
+
+            Console.WriteLine($"Здравствуйте, {firstName} {lastName}!");
+
+            Console.Write("Хотите вывести содержимое файла на экран? (да/нет): ");
+            string choice = Console.ReadLine();
+
+            if (choice.Equals("да", StringComparison.OrdinalIgnoreCase))
             {
-                Console.WriteLine(line);
+                foreach (string line in lines)
+                {
+                    Console.WriteLine(line);
+                }
             }
+            #endregion
         }
-        #endregion
+        catch(Exception e)
+        {
+            Console.WriteLine($"Ошибка: {e}");
+        }
     }
+     
 
     static async Task<string[]> ReadFileAsync(string path)
     {

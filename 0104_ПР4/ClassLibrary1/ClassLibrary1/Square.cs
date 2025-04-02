@@ -22,22 +22,6 @@ namespace ClassLibrary1
         public override double[] GetAngles()
         {
             return new[] { 90.0, 90.0, 90.0, 90.0 };
-        }
-
-        /*
-        #region Переопределение Equals и GetHashCode
-        public override bool Equals(object obj)
-        {
-            if (obj == null || GetType() != obj.GetType())
-                return false;
-            return base.Equals(obj);
-        }
-
-        public override int GetHashCode()
-        {
-            return base.GetHashCode();
-        }
-        #endregion
-        */
+        } 
     }
 }

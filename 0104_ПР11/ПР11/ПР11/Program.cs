@@ -11,20 +11,27 @@ namespace ПР11
     {
         static void Main(string[] args)
         {
-            int totalAnimals = 7;
-            int maxAnimalsOnField = 4;
-            int satietyLevel = 3;
-
-            // Создаём семафор с заданным количеством слотов
-            Semaphore sem = new Semaphore(maxAnimalsOnField, maxAnimalsOnField);
-            int animalsFed = 0; // Счётчик наевшихся животных
-
-            // Создаём животных
-            for (int i = 1; i <= totalAnimals; i++)
+            try
             {
-                Animal animal = new Animal(i, sem, satietyLevel, ref animalsFed, totalAnimals);
+                int totalAnimals = 7;
+                int maxAnimalsOnField = 4;
+                int satietyLevel = 3;
+
+                // Создаём семафор с заданным количеством слотов
+                Semaphore sem = new Semaphore(maxAnimalsOnField, maxAnimalsOnField);
+                int animalsFed = 0; // Счётчик наевшихся животных
+
+                // Создаём животных
+                for (int i = 1; i <= totalAnimals; i++)
+                {
+                    Animal animal = new Animal(i, sem, satietyLevel, ref animalsFed, totalAnimals);
+                }
+                Console.ReadLine();
             }
-            Console.ReadLine();
+            catch(Exception e)
+            {
+                Console.WriteLine("Ошибка: ", e);
+            }
         }
     }
 }

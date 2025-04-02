@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042010\\",
+  "WorkspaceRootPath": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042010\\\u043F\u044010\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|solutionrelative:\u043F\u044010\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -16,6 +17,21 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|c:\\users\\nikup\\onedrive\\desktop\\pg\\vs\\0104\\0104_\u043F\u044010\\\u043F\u044010\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u043F\u044010\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|solutionrelative:\u043F\u044010\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u043F\u044010\\outofboundseventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|solutionrelative:\u043F\u044010\\outofboundseventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u043F\u044010\\gameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|solutionrelative:\u043F\u044010\\gameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|c:\\users\\\u043D\u0438\u043A\u0438\u0442\u0430\\desktop\\programs\\vs\\0104\\0104_\u043F\u044010\\\u043F\u044010\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 4a3c8416bb78a434beef604e978f9c6156d6344d
       "RelativeMoniker": "D:0:0:{6A7A39CD-08F0-48A5-A8CF-8E1F10636E77}|\u041F\u042010\\\u041F\u042010.csproj|solutionrelative:\u043F\u044010\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,40 +45,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 9,
+=======
+          "SelectedChildIndex": 7,
+>>>>>>> 4a3c8416bb78a434beef604e978f9c6156d6344d
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+<<<<<<< HEAD
               "$type": "Document",
+=======
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameEvent.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\GameEvent.cs",
+              "RelativeDocumentMoniker": "\u041F\u042010\\GameEvent.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\GameEvent.cs",
+              "RelativeToolTip": "\u041F\u042010\\GameEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T23:41:17.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> 4a3c8416bb78a434beef604e978f9c6156d6344d
               "DocumentIndex": 3,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\Game.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\Game.cs",
               "RelativeDocumentMoniker": "\u041F\u042010\\Game.cs",
-              "ToolTip": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\Game.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\Game.cs",
               "RelativeToolTip": "\u041F\u042010\\Game.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAkAAAAAAAAAAAAmwFsAAAA6AAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+>>>>>>> 4a3c8416bb78a434beef604e978f9c6156d6344d
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T23:27:08.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+=======
+              "DocumentIndex": 1,
+              "Title": "OutOfBoundsEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\OutOfBoundsEventArgs.cs",
+              "RelativeDocumentMoniker": "\u041F\u042010\\OutOfBoundsEventArgs.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\OutOfBoundsEventArgs.cs",
+              "RelativeToolTip": "\u041F\u042010\\OutOfBoundsEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T23:25:59.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> 4a3c8416bb78a434beef604e978f9c6156d6344d
               "DocumentIndex": 4,
               "Title": "desktop.ini",
               "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Documents\\desktop.ini",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\\u041D\u0438\u043A\u0438\u0442\u0430\\Documents\\desktop.ini",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\desktop.ini",
               "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Documents\\desktop.ini",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\\u041D\u0438\u043A\u0438\u0442\u0430\\Documents\\desktop.ini",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\desktop.ini",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002768|",
               "WhenOpened": "2025-03-10T12:05:10.05Z"
+<<<<<<< HEAD
             },
             {
               "$type": "Bookmark",
@@ -104,11 +166,16 @@
             },
             {
               "$type": "Document",
+=======
+            },
+            {
+              "$type": "Document",
+>>>>>>> 4a3c8416bb78a434beef604e978f9c6156d6344d
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\Program.cs",
               "RelativeDocumentMoniker": "\u041F\u042010\\Program.cs",
-              "ToolTip": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042010\\\u041F\u042010\\Program.cs",
               "RelativeToolTip": "\u041F\u042010\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

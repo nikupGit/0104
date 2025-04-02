@@ -19,23 +19,5 @@ namespace ClassLibrary1
         {
             return Math.Abs(X - other.X) < 1e-9 && Math.Abs(Y - other.Y) < 1e-9;
         }
-
-        /*
-        public override bool Equals(object obj)
-        {
-            return obj is Point other && Equals(other);
-        }
-
-        public override int GetHashCode()
-        {
-            unchecked
-            {
-                int hash = 17;
-                hash = hash * 23 + X.GetHashCode();
-                hash = hash * 23 + Y.GetHashCode();
-                return hash;
-            }
-        }
-        */
     }
 }

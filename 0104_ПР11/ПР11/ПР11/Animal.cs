@@ -42,8 +42,7 @@ namespace ПР11
                         Console.WriteLine($"{Thread.CurrentThread.Name} входит на поляну");
                         Console.WriteLine($"{Thread.CurrentThread.Name} ест");
                         Thread.Sleep(1000); // Имитация времени еды
-                        Console.WriteLine();
-                        satiety++; // Увеличиваем сытость
+                        satiety++; Console.WriteLine($"\n{Thread.CurrentThread.Name} Сыто на {satiety} из 3"); // Увеличиваем сытость
                         Console.WriteLine($"{Thread.CurrentThread.Name} покидает поляну");
                     }
                     finally
