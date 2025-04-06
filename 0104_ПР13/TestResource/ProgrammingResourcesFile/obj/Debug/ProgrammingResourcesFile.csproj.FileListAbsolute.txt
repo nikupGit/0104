@@ -1,0 +1,7 @@
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ProgrammingResourcesFile\bin\Debug\ProgrammingResourcesFile.exe.config
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ProgrammingResourcesFile\bin\Debug\ProgrammingResourcesFile.exe
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ProgrammingResourcesFile\bin\Debug\ProgrammingResourcesFile.pdb
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ProgrammingResourcesFile\obj\Debug\ProgrammingResourcesFile.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ProgrammingResourcesFile\obj\Debug\ProgrammingResourcesFile.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ProgrammingResourcesFile\obj\Debug\ProgrammingResourcesFile.exe
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ProgrammingResourcesFile\obj\Debug\ProgrammingResourcesFile.pdb

@@ -32,7 +32,7 @@ namespace ClassLibrary1
             return baseLength * height;
         }
 
-        // Переопределение метода вычисления углов (в параллелограмме противоположные углы равны)
+        // Переопределение метода вычисления углов
         public override double[] GetAngles()
         {
             double angle = CalculateAngle(A, B, D);

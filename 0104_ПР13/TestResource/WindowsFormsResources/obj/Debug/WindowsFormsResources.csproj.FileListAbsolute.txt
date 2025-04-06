@@ -1,0 +1,10 @@
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\WindowsFormsResources\bin\Debug\WindowsFormsResources.exe.config
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\WindowsFormsResources\bin\Debug\WindowsFormsResources.exe
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\WindowsFormsResources\bin\Debug\WindowsFormsResources.pdb
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\WindowsFormsResources\obj\Debug\WindowsFormsResources.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\WindowsFormsResources\obj\Debug\WindowsFormsResources.Form1.resources
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\WindowsFormsResources\obj\Debug\WindowsFormsResources.Properties.Resources.resources
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\WindowsFormsResources\obj\Debug\WindowsFormsResources.csproj.GenerateResource.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\WindowsFormsResources\obj\Debug\WindowsFormsResources.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\WindowsFormsResources\obj\Debug\WindowsFormsResources.exe
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\WindowsFormsResources\obj\Debug\WindowsFormsResources.pdb

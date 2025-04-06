@@ -1,0 +1,8 @@
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ReadResources\bin\Debug\CarResources.resources
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ReadResources\bin\Debug\ReadResources.exe.config
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ReadResources\bin\Debug\ReadResources.exe
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ReadResources\bin\Debug\ReadResources.pdb
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ReadResources\obj\Debug\ReadResources.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ReadResources\obj\Debug\ReadResources.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ReadResources\obj\Debug\ReadResources.exe
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР13\TestResource\ReadResources\obj\Debug\ReadResources.pdb

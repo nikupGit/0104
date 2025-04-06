@@ -4,7 +4,7 @@
 namespace ClassLibrary1
 {
     // Структура для представления точки в двумерном пространстве
-    public readonly struct Point : IEquatable<Point>
+    public readonly struct Point
     {
         public double X { get; } // Координата X
         public double Y { get; } // Координата Y

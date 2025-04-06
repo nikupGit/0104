@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\classlibrary1\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\classlibrary1\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\classlibrary1\\convexquadrilateral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\convexquadrilateral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\classlibrary1\\rhombus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\rhombus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\classlibrary1\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C59FE1A7-2732-475F-AAA7-A07F88821B28}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\\u043D\u0438\u043A\u0438\u0442\u0430\\desktop\\programs\\vs\\0104\\0104_\u043F\u04404\\classlibrary1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +23,12 @@
       "RelativeMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\parallelogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\classlibrary1\\convexquadrilateral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\convexquadrilateral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\classlibrary1\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCA299-AE99-4C95-812E-BAA82C69379D}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59FE1A7-2732-475F-AAA7-A07F88821B28}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\consoleapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C59FE1A7-2732-475F-AAA7-A07F88821B28}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,33 +60,44 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T20:39:45.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ConsoleApp1\\App.config",
+              "RelativeDocumentMoniker": "ConsoleApp1\\App.config",
+              "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ConsoleApp1\\App.config",
+              "RelativeToolTip": "ConsoleApp1\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-24T08:10:48.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Point.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ClassLibrary1\\Point.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Point.cs",
               "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ClassLibrary1\\Point.cs",
               "RelativeToolTip": "ClassLibrary1\\Point.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T12:43:43.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T12:43:43.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ConvexQuadrilateral.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ClassLibrary1\\ConvexQuadrilateral.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\ConvexQuadrilateral.cs",
               "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ClassLibrary1\\ConvexQuadrilateral.cs",
               "RelativeToolTip": "ClassLibrary1\\ConvexQuadrilateral.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T20:37:58.748Z",
               "EditorCaption": ""
@@ -95,33 +110,32 @@
               "RelativeDocumentMoniker": "ClassLibrary1\\Parallelogram.cs",
               "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ClassLibrary1\\Parallelogram.cs",
               "RelativeToolTip": "ClassLibrary1\\Parallelogram.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T12:45:56.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T12:45:56.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Rhombus.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ClassLibrary1\\Rhombus.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Rhombus.cs",
               "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ClassLibrary1\\Rhombus.cs",
               "RelativeToolTip": "ClassLibrary1\\Rhombus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T12:46:36.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Square.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ClassLibrary1\\Square.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Square.cs",
               "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u04204\\ClassLibrary1\\ClassLibrary1\\Square.cs",
               "RelativeToolTip": "ClassLibrary1\\Square.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T12:47:16.469Z",
               "EditorCaption": ""

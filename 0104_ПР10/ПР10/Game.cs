@@ -21,7 +21,8 @@ namespace ПР10
             bool up, left, right, down;
             while (true)
             {
-                Console.WriteLine($"X: {x} Y: {y}");
+                Console.WriteLine("Игра лабиринт. Для завершения нажмите Esc.");
+                Console.WriteLine($"Позиция на карте: X {x} Y {y}");
                 up = true; left = true; right = true; down = true;
                 Draw(x, y, ref up, ref left, ref right, ref down);
                 Console.SetCursorPosition(x, y);
@@ -77,6 +78,7 @@ namespace ПР10
                         }
                         break;
                     case ConsoleKey.Escape:
+                        Console.Clear();
                         return;
                     default:
                         break;
