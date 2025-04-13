@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042012\\\u041F\u042012\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23924F06-6112-4526-94BB-815E38F3F170}|\u041F\u042012\\\u041F\u042012.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042012\\\u041F\u042012\\\u043F\u044012\\syncasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23924F06-6112-4526-94BB-815E38F3F170}|\u041F\u042012\\\u041F\u042012.csproj|solutionrelative:\u043F\u044012\\syncasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23924F06-6112-4526-94BB-815E38F3F170}|\u041F\u042012\\\u041F\u042012.csproj|c:\\users\\\u043D\u0438\u043A\u0438\u0442\u0430\\desktop\\programs\\vs\\0104\\0104_\u043F\u044012\\\u043F\u044012\\\u043F\u044012\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23924F06-6112-4526-94BB-815E38F3F170}|\u041F\u042012\\\u041F\u042012.csproj|solutionrelative:\u043F\u044012\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23924F06-6112-4526-94BB-815E38F3F170}|\u041F\u042012\\\u041F\u042012.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042012\\\u041F\u042012\\\u043F\u044012\\async.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23924F06-6112-4526-94BB-815E38F3F170}|\u041F\u042012\\\u041F\u042012.csproj|solutionrelative:\u043F\u044012\\async.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,34 +25,34 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042012\\\u041F\u042012\\\u041F\u042012\\Program.cs",
               "RelativeDocumentMoniker": "\u041F\u042012\\Program.cs",
               "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042012\\\u041F\u042012\\\u041F\u042012\\Program.cs",
               "RelativeToolTip": "\u041F\u042012\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T00:29:30.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SyncAsync.cs",
-              "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042012\\\u041F\u042012\\\u041F\u042012\\SyncAsync.cs",
-              "RelativeDocumentMoniker": "\u041F\u042012\\SyncAsync.cs",
-              "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042012\\\u041F\u042012\\\u041F\u042012\\SyncAsync.cs",
-              "RelativeToolTip": "\u041F\u042012\\SyncAsync.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Async.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042012\\\u041F\u042012\\\u041F\u042012\\Async.cs",
+              "RelativeDocumentMoniker": "\u041F\u042012\\Async.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042012\\\u041F\u042012\\\u041F\u042012\\Async.cs",
+              "RelativeToolTip": "\u041F\u042012\\Async.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T12:10:04.494Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

@@ -1,0 +1,7 @@
+C:\Users\Никита\Desktop\programs\VS\0104\PR14\PrRes\PrRes\bin\Debug\PrRes.exe.config
+C:\Users\Никита\Desktop\programs\VS\0104\PR14\PrRes\PrRes\bin\Debug\PrRes.exe
+C:\Users\Никита\Desktop\programs\VS\0104\PR14\PrRes\PrRes\bin\Debug\PrRes.pdb
+C:\Users\Никита\Desktop\programs\VS\0104\PR14\PrRes\PrRes\obj\Debug\PrRes.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\programs\VS\0104\PR14\PrRes\PrRes\obj\Debug\PrRes.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\programs\VS\0104\PR14\PrRes\PrRes\obj\Debug\PrRes.exe
+C:\Users\Никита\Desktop\programs\VS\0104\PR14\PrRes\PrRes\obj\Debug\PrRes.pdb

@@ -5,7 +5,7 @@ class Animal
 {
     private static readonly Semaphore sem = new Semaphore(4, 4);
 
-    public Thread MyThread { get; private set; }
+    public Thread MyThread;
 
     int saityCount = 0;
     const int FULLSAITY = 5;

@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace ПР12
 {
@@ -14,10 +16,15 @@ namespace ПР12
                 string filePath = "data.txt";
 
                 File.WriteAllText(filePath, string.Empty);
-                SyncAsync.FileWriter(filePath, 2000);
+                Async.FileWriter(filePath, 300000);
 
                 Console.OutputEncoding = Encoding.Unicode;
                 Console.InputEncoding = Encoding.Unicode;
+
+                Task<string[]> readTask = null;
+
+                Console.WriteLine("Запуск асинхронного чтения...");
+                readTask = Async.ReadFileAsync(filePath);
 
                 Console.Write("Введите ваше имя: ");
                 string firstName = Console.ReadLine();
@@ -27,38 +34,23 @@ namespace ПР12
 
                 Console.WriteLine($"Здравствуйте, {firstName} {lastName}!");
 
-                Console.Write("Вы хотите считать файл синхронно или асинхронно? (sync/async): ");
-                string mode = Console.ReadLine();
-
-                Console.WriteLine("Считывание файла началось...");
                 string[] lines;
+                Console.WriteLine("Ожидание завершения асинхронного чтения...");
+                lines = await readTask;
 
-                if (mode.Equals("sync", StringComparison.OrdinalIgnoreCase))
+                Console.Write("Показать содержимое файла? (да/нет): ");
+                if (Console.ReadLine().Trim().Equals("да", StringComparison.OrdinalIgnoreCase))
                 {
-                    Console.WriteLine("Синхронное чтение");
-                    lines = SyncAsync.ReadFileSync(filePath);
-                }
-                else
-                {
-                    Console.WriteLine("Асинхронное чтение");
-                    lines = await SyncAsync.ReadFileAsync(filePath);
-                }
-
-                Console.Write("Хотите вывести содержимое файла на экран? (да/нет): ");
-                string choice = Console.ReadLine();
-
-                if (choice.Equals("да", StringComparison.OrdinalIgnoreCase))
-                {
-                    foreach (string line in lines)
+                    Console.WriteLine("\nСодержимое файла:");
+                    foreach (var line in lines)
                     {
                         Console.WriteLine(line);
                     }
-                    Console.WriteLine("Конец вывода.");
                 }
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.WriteLine($"Ошибка: {e.Message}");
+                Console.WriteLine($"Ошибка: {ex.Message}");
             }
         }
     }
