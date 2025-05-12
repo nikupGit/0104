@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPortScanner", "WpfPortScanner\WpfPortScanner.csproj", "{92BCC3A5-12F4-47F9-89C6-75F61CF4DFFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92BCC3A5-12F4-47F9-89C6-75F61CF4DFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BCC3A5-12F4-47F9-89C6-75F61CF4DFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BCC3A5-12F4-47F9-89C6-75F61CF4DFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BCC3A5-12F4-47F9-89C6-75F61CF4DFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CB3EBAB-96D6-4C9B-B264-B30DF9BA4537}
+	EndGlobalSection
+EndGlobal
