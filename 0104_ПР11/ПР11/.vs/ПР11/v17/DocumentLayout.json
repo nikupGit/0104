@@ -1,23 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\",
+  "WorkspaceRootPath": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{F93C2228-74B9-4073-BF15-7C078EDFF3FA}|\u041F\u042011\\\u041F\u042011.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u043F\u044011\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F93C2228-74B9-4073-BF15-7C078EDFF3FA}|\u041F\u042011\\\u041F\u042011.csproj|c:\\users\\nikup\\onedrive\\desktop\\pg\\vs\\0104\\0104_\u043F\u044011\\\u043F\u044011\\\u043F\u044011\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F93C2228-74B9-4073-BF15-7C078EDFF3FA}|\u041F\u042011\\\u041F\u042011.csproj|solutionrelative:\u043F\u044011\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F93C2228-74B9-4073-BF15-7C078EDFF3FA}|\u041F\u042011\\\u041F\u042011.csproj|c:\\users\\nikup\\onedrive\\desktop\\pg\\vs\\0104\\0104_\u043F\u044011\\\u043F\u044011\\\u043F\u044011\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F93C2228-74B9-4073-BF15-7C078EDFF3FA}|\u041F\u042011\\\u041F\u042011.csproj|C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u043F\u044011\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F93C2228-74B9-4073-BF15-7C078EDFF3FA}|\u041F\u042011\\\u041F\u042011.csproj|solutionrelative:\u043F\u044011\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{F93C2228-74B9-4073-BF15-7C078EDFF3FA}|\u041F\u042011\\\u041F\u042011.csproj|c:\\users\\\u043D\u0438\u043A\u0438\u0442\u0430\\desktop\\programs\\vs\\0104\\0104_\u043F\u044011\\\u043F\u044011\\\u043F\u044011\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F93C2228-74B9-4073-BF15-7C078EDFF3FA}|\u041F\u042011\\\u041F\u042011.csproj|solutionrelative:\u043F\u044011\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F93C2228-74B9-4073-BF15-7C078EDFF3FA}|\u041F\u042011\\\u041F\u042011.csproj|C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u043F\u044011\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F93C2228-74B9-4073-BF15-7C078EDFF3FA}|\u041F\u042011\\\u041F\u042011.csproj|solutionrelative:\u043F\u044011\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 4a3c8416bb78a434beef604e978f9c6156d6344d
     }
   ],
   "DocumentGroupContainers": [
@@ -27,16 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-<<<<<<< HEAD
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -44,27 +34,21 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-=======
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
->>>>>>> 4a3c8416bb78a434beef604e978f9c6156d6344d
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u041F\u042011\\Animal.cs",
+              "DocumentMoniker": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u041F\u042011\\Animal.cs",
               "RelativeDocumentMoniker": "\u041F\u042011\\Animal.cs",
-              "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u041F\u042011\\Animal.cs",
+              "ToolTip": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u041F\u042011\\Animal.cs",
               "RelativeToolTip": "\u041F\u042011\\Animal.cs",
-<<<<<<< HEAD
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
->>>>>>> 4a3c8416bb78a434beef604e978f9c6156d6344d
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T00:00:46.962Z",
               "EditorCaption": ""
@@ -73,18 +57,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u041F\u042011\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u041F\u042011\\Program.cs",
               "RelativeDocumentMoniker": "\u041F\u042011\\Program.cs",
-              "ToolTip": "C:\\Users\\\u041D\u0438\u043A\u0438\u0442\u0430\\Desktop\\programs\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u041F\u042011\\Program.cs",
+              "ToolTip": "C:\\Users\\nikup\\OneDrive\\Desktop\\pg\\VS\\0104\\0104_\u041F\u042011\\\u041F\u042011\\\u041F\u042011\\Program.cs",
               "RelativeToolTip": "\u041F\u042011\\Program.cs",
-<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAfAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
->>>>>>> 4a3c8416bb78a434beef604e978f9c6156d6344d
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T00:00:27.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T00:00:27.749Z"
             }
           ]
         }

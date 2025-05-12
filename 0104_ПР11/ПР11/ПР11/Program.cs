@@ -13,24 +13,24 @@ namespace ПР11
         {
             try
             {
-                int totalAnimals = 7;
-                int maxAnimalsOnField = 4;
-                int satietyLevel = 3;
+                const int NUMBEROFANIMALS = 7;
+                Animal[] animals = new Animal[NUMBEROFANIMALS];
 
-                // Создаём семафор с заданным количеством слотов
-                Semaphore sem = new Semaphore(maxAnimalsOnField, maxAnimalsOnField);
-                int animalsFed = 0; // Счётчик наевшихся животных
-
-                // Создаём животных
-                for (int i = 1; i <= totalAnimals; i++)
+                for (int i = 0; i < NUMBEROFANIMALS; i++)
                 {
-                    Animal animal = new Animal(i, sem, satietyLevel, ref animalsFed, totalAnimals);
+                    animals[i] = new Animal(i + 1);
                 }
+                foreach (Animal animal in animals)
+                {
+                    animal.MyThread.Join();
+                }
+
+                Console.WriteLine("\nВсе животные наелись!");
                 Console.ReadLine();
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-                Console.WriteLine("Ошибка: ", e);
+                Console.WriteLine("Ошибка: ", e.Message);
             }
         }
     }

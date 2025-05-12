@@ -117,5 +117,6 @@ namespace ClassLibrary1
                    C.Equals(other.C) &&
                    D.Equals(other.D);
         }
+        public override int GetHashCode() { return 0; }
     }
 }

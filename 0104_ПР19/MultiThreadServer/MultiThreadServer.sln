@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadServer", "MultiThreadServer\MultiThreadServer.csproj", "{74D01197-769A-4986-BA36-3A07396F8028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewClient", "NewClient\NewClient.csproj", "{E1A77ED6-C5E3-469F-9AD2-37E98B6B5A5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74D01197-769A-4986-BA36-3A07396F8028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D01197-769A-4986-BA36-3A07396F8028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D01197-769A-4986-BA36-3A07396F8028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D01197-769A-4986-BA36-3A07396F8028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A77ED6-C5E3-469F-9AD2-37E98B6B5A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A77ED6-C5E3-469F-9AD2-37E98B6B5A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A77ED6-C5E3-469F-9AD2-37E98B6B5A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A77ED6-C5E3-469F-9AD2-37E98B6B5A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A4C5EC0-D59B-4824-82DE-A7F88C1D4A65}
+	EndGlobalSection
+EndGlobal

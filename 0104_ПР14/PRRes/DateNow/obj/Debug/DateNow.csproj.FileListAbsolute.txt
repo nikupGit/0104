@@ -1,0 +1,7 @@
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР14\PRRes\DateNow\bin\Debug\DateNow.exe.config
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР14\PRRes\DateNow\bin\Debug\DateNow.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР14\PRRes\DateNow\bin\Debug\DateNow.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР14\PRRes\DateNow\obj\Debug\DateNow.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР14\PRRes\DateNow\obj\Debug\DateNow.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР14\PRRes\DateNow\obj\Debug\DateNow.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР14\PRRes\DateNow\obj\Debug\DateNow.pdb

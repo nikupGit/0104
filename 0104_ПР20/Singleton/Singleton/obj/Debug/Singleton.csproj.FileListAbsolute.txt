@@ -1,0 +1,7 @@
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР20\Singleton\Singleton\bin\Debug\Singleton.exe.config
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР20\Singleton\Singleton\bin\Debug\Singleton.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР20\Singleton\Singleton\bin\Debug\Singleton.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР20\Singleton\Singleton\obj\Debug\Singleton.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР20\Singleton\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР20\Singleton\Singleton\obj\Debug\Singleton.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР20\Singleton\Singleton\obj\Debug\Singleton.pdb

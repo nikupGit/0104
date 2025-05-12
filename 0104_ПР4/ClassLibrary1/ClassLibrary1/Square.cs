@@ -17,8 +17,18 @@ namespace ClassLibrary1
             double angle = CalculateAngle(A, B, D);
             return Math.Abs(angle - 90) < 1e-9;
         }
-
-        // Переопределение метода вычисления углов (все углы 90 градусов)
+        public override double[] GetDiagonals()
+        {
+            return new[]
+            {
+                CalculateDistance(A, C)
+            };
+        }
+        public override double GetArea()
+        {
+            double[] sides = GetSideLengths();
+            return Math.Pow(sides[0], 2);
+        }
         public override double[] GetAngles()
         {
             return new[] { 90.0, 90.0, 90.0, 90.0 };

@@ -1,0 +1,7 @@
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\MultiThreadServer\bin\Debug\MultiThreadServer.exe.config
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\MultiThreadServer\bin\Debug\MultiThreadServer.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\MultiThreadServer\bin\Debug\MultiThreadServer.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\MultiThreadServer\obj\Debug\MultiThreadServer.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\MultiThreadServer\obj\Debug\MultiThreadServer.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\MultiThreadServer\obj\Debug\MultiThreadServer.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\MultiThreadServer\obj\Debug\MultiThreadServer.pdb

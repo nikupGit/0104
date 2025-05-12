@@ -1,0 +1,7 @@
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\NewClient\bin\Debug\NewClient.exe.config
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\NewClient\bin\Debug\NewClient.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\NewClient\bin\Debug\NewClient.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\NewClient\obj\Debug\NewClient.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\NewClient\obj\Debug\NewClient.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\NewClient\obj\Debug\NewClient.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР19\MultiThreadServer\NewClient\obj\Debug\NewClient.pdb

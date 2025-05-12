@@ -1,0 +1,67 @@
+﻿<Window x:Class="CurrencyConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        xmlns:local="clr-namespace:CurrencyConverter"
+        mc:Ignorable="d"
+        Title="Конвертер валют"
+        Height="450"
+        Width="800">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0"
+                    Margin="15"
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal"
+                    Width="700">
+            <Label Content="Количество:"
+                   FontSize="20"
+                   HorizontalContentAlignment="Center"
+                   VerticalContentAlignment="Center" />
+            <TextBox x:Name="AmountTextBox"
+                     Height="28"
+                     Width="100"
+                     FontSize="20" />
+            <Label Content="Из:"
+                   FontSize="20"
+                   HorizontalContentAlignment="Center"
+                   VerticalContentAlignment="Center" />
+            <ListBox x:Name="CurrencyFromListBox"
+                     Height="Auto"
+                     Width="150"
+                     FontSize="20" />
+            <Label Content="В:"
+                   FontSize="20"
+                   HorizontalContentAlignment="Center"
+                   VerticalContentAlignment="Center" />
+            <ListBox x:Name="CurrencyToListBox"
+                     Height="Auto"
+                     Width="150"
+                     FontSize="20" />
+            <Button x:Name="ConvertButton"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Content="Перевести"
+                    Height="95"
+                    Width="95"
+                    FontSize="15"
+                    Margin="20 0 0 0"
+                    FontWeight="Black"
+                    BorderThickness="2"
+                    Padding="5"
+                    Background="White"
+                    Click="ConvertButton_Click" />
+        </StackPanel>
+        
+        <wv2:WebView2 x:Name="ResultsWebView2"
+                      Grid.Row="1"
+                      Margin="0 0 0 2" />
+
+    </Grid>
+</Window>

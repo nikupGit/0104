@@ -1,0 +1,10 @@
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР17\WpfPortScanner\WindowsFormsAppPortScan\bin\Debug\WindowsFormsAppPortScan.exe.config
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР17\WpfPortScanner\WindowsFormsAppPortScan\bin\Debug\WindowsFormsAppPortScan.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР17\WpfPortScanner\WindowsFormsAppPortScan\bin\Debug\WindowsFormsAppPortScan.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР17\WpfPortScanner\WindowsFormsAppPortScan\obj\Debug\WindowsFormsAppPortScan.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР17\WpfPortScanner\WindowsFormsAppPortScan\obj\Debug\WindowsFormsAppPortScan.Form1.resources
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР17\WpfPortScanner\WindowsFormsAppPortScan\obj\Debug\WindowsFormsAppPortScan.Properties.Resources.resources
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР17\WpfPortScanner\WindowsFormsAppPortScan\obj\Debug\WindowsFormsAppPortScan.csproj.GenerateResource.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР17\WpfPortScanner\WindowsFormsAppPortScan\obj\Debug\WindowsFormsAppPortScan.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР17\WpfPortScanner\WindowsFormsAppPortScan\obj\Debug\WindowsFormsAppPortScan.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР17\WpfPortScanner\WindowsFormsAppPortScan\obj\Debug\WindowsFormsAppPortScan.pdb

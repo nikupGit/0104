@@ -1,0 +1,14 @@
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР18\ServerApp\ServerApp\bin\Debug\ServerApp.exe.config
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР18\ServerApp\ServerApp\bin\Debug\ServerApp.exe
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР18\ServerApp\ServerApp\bin\Debug\ServerApp.pdb
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР18\ServerApp\ServerApp\obj\Debug\ServerApp.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР18\ServerApp\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР18\ServerApp\ServerApp\obj\Debug\ServerApp.exe
+C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР18\ServerApp\ServerApp\obj\Debug\ServerApp.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР18\ServerApp\ServerApp\bin\Debug\ServerApp.exe.config
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР18\ServerApp\ServerApp\bin\Debug\ServerApp.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР18\ServerApp\ServerApp\bin\Debug\ServerApp.pdb
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР18\ServerApp\ServerApp\obj\Debug\ServerApp.csproj.AssemblyReference.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР18\ServerApp\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР18\ServerApp\ServerApp\obj\Debug\ServerApp.exe
+C:\Users\nikup\OneDrive\Desktop\pg\VS\0104\0104_ПР18\ServerApp\ServerApp\obj\Debug\ServerApp.pdb

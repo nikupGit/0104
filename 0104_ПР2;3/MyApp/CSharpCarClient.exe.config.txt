@@ -5,7 +5,7 @@
     </startup>
     <runtime>
         <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
-            <probing privatePath="C:\Users\Никита\Desktop\programs\VS\0104\0104_ПР2;3\MyApp\MyLibraries" />
+            <probing privatePath="MyLibraries" />
         </assemblyBinding>
     </runtime>
 </configuration>

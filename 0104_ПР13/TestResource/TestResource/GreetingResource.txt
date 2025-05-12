@@ -1,0 +1,2 @@
+﻿prompt=Enter your name:
+greeting=Hello, {0}!
